@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(26, 5, 5);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.thongbao{
+    height: 40px;
+    text-align: center;
+    background: rgb(241, 210, 215);
+    color: rgb(231, 14, 25);
+    font-variant: small-caps;
+    line-height: 40px;
+}
+
+.menu-logo{
+    position: relative;
+    background:rgb(222, 233, 238);
+    height: 130px;
+}
+
+.menu-logo .logo{
+    position: absolute;
+    top: 16px;
+    left: 100px;
+}
+
+.menu-logo ul{
+    position: absolute;
+    top: 15px;
+    right: 90px;
+}
+
+.menu-logo .login{
+    font-size: 26px;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    position: absolute;
+    right: 25px;
+    top: 48px;
+    background: pink;
+}
+
+.menu-logo ul li{
+    display: inline-block;
+}
+
+.menu-logo ul a{
+    text-decoration: none;
+    color: rgb(14, 17, 17);
+    line-height: 100px;
+    margin: 0 25px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+
+.menu-logo ul a:hover{
+    color:rgb(243, 203, 209);
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: all 0.5s linear;
+}
+
+.menu>li{
+    position: relative;
+}
+
+
+.menu ul{
+    width: 170px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: rgb(248, 231, 231);
+    font-variant: small-caps;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 0 2px red;
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    display: none;
+    height: 400px;
+    margin-top: 70px;
+
+}
+
+.menu>li:hover>ul{
+    display: block;
+}
+
+.banner{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 230px;
+}
+
+.banner img{
+    max-width: 100%;
+    border-radius: 40px;
+}
+
+.product .heading{
+    text-align: center;
+    font-size: 30px;
+    color: #24A19C;
+    margin: 40px 0;
+    position: relative;
+}
+
+.product .heading1{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    margin: 40px 0;
+    position: relative;
+}
+
+.product .heading1:after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: red;
+    top: 45px;
+    left: 46%;
+}
+
+.product .heading:after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #24A19C;
+    top: 45px;
+    left: 46%;
+}
+
+.product .list-product .product-item{
+    width: 22%;
+    margin: 20px 20px;
+    display: inline-block;
+}
+
+.product .list-product .product-item img{
+    max-width: 100%;
+}
+
+.product .list-product .product-item:hover{
+    transform: scale(1.1);
+    transition: all .3 linear;
+}
+
+footer{
+    width: 100%;
+    background: rgb(241, 210, 215);
+    color: rgb(10, 10, 10);
+    text-align: center;
+}
+
+footer .footer-item{
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+footer .footer-item h3{
+    margin: 10px 0;
+}
+
+footer .link a{
+    display: block;
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+    margin: 3px 0;
+}
+
+footer .footer-item .lk{
+    margin: 43px 0;
+}
+
+.end{
+    background: rgb(241, 210, 215);
+    color: rgb(24, 21, 21);
+    text-align: center;
+    padding: 5px;
+}
+
+.end p{
+    padding-top: 15px;
+}
+
+.ten{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.ten:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+#fb{
+    text-decoration: none;
+    color: black;
+}
+
+
+#i{
+    position: fixed;
+    padding: 15px;
+    right: 10px;
+    bottom: 30px;
+    color: white;
+    background-color: rgb(247, 147, 163);
+}
+
+article{
+    width: 100%;
+    height: 400px;
+}
+
+iframe{
+    width: 100%;
+    min-height: 400px;
+}

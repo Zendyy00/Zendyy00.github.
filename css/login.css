@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(26, 5, 5);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    color: #24A19C;
+    margin: 40px 0;
+    position: relative;
+}
+
+.product .heading1{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    margin: 40px 0;
+    position: relative;
+}
+
+.product .heading1:after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: red;
+    top: 45px;
+    left: 46%;
+}
+
+.heading:after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #24A19C;
+    top: 45px;
+    left: 47%;
+}
+
+.login{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.login form{
+    display: flex;
+    /*dàn các thẻ con thành hàng dọc*/
+    flex-direction: column;
+}
+
+.login form input{
+    padding: 20px 20px;
+    border: 2px solid pink;
+    margin: 15px 0;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+.login form input:focus{
+    border: 2px solid rgb(63, 185, 59);
+    transition: all .2s linear;
+}
+
+p{
+    margin-top: 50px;
+}
+
+.login form button{
+    padding: 12px;
+    color:#24A19C;
+    background: rgb(241, 210, 215);
+    border: 2px solid rgb(252, 253, 253);
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.login form button:hover{
+    border: 2px solid #fafaf9;
+    background: #24A19C;
+    color: aliceblue;
+    transition: all .4s linear;
+}
+
+.link-login{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    margin: 30px 0;
+}
+
+.link-login:hover{
+    text-decoration: underline;
+    color: #24A19C;
+    transition: all .4s linear;
+}
